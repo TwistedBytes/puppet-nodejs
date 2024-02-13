@@ -70,7 +70,7 @@ class nodejs::params {
       $package_provider          = undef
     }
     'RedHat': {
-      if $facts['os']['release']['major'] =~ /^[678]$/ {
+      if $facts['os']['release']['major'] =~ /^[6789]$/ {
         $manage_package_repo       = true
         $nodejs_debug_package_name = 'nodejs-debuginfo'
         $nodejs_dev_package_name   = 'nodejs-devel'
