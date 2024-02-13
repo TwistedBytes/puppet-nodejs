@@ -1,7 +1,7 @@
 {
   "name": "puppet-nodejs",
-  "version": "8.1.0",
-  "author": "Vox Pupuli",
+  "version": "8.1.1",
+  "author": "Vox Pupuli / TB",
   "summary": "Install Node.js package and npm package provider.",
   "license": "Apache-2.0",
   "source": "https://github.com/voxpupuli/puppet-nodejs",
